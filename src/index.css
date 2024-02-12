@@ -1,0 +1,219 @@
+/* App container */
+
+.App {
+  font-family: 'Nunito', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Filter input container */
+.filterInputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Filter input fields */
+.filterInputs input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+}
+input::placeholder {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Filter button */
+.filterInputs button {
+  padding: 8px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Clear Filter button */
+.filterInputs button:last-child {
+  background-color: #dc3545;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Table header */
+table th {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Table body */
+table td, table th {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Modal */
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Close button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #333;
+}
+/* Add New CWE button */
+button.add-cwe {
+  margin-top: 20px; 
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745; /* Green color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Add New CWE button hover effect */
+button.add-cwe:hover {
+  filter: brightness(1.2); /* Lighten the color on hover */
+}
+
+/* Edit button */
+button.edit {
+  padding: 8px 16px;
+  margin-right: 8px; /* Add margin to separate from delete button */
+  font-size: 14px;
+  background-color: #28a745; /* Green color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Delete button */
+button.delete {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #dc3545; /* Red color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Edit and Delete buttons hover effect */
+button.edit:hover,
+button.delete:hover {
+  filter: brightness(1.2); /* Lighten the color on hover */
+}
+button.filter:hover,
+button.clear-filter:hover {
+  filter: brightness(1.2); /* Lighten the color on hover */
+}
+/* Save and cancel buttons */
+.modal-content button.save {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #28a745; /* Blue color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-content button.save:hover {
+  filter: brightness(1.2); /* Lighten the color on hover */
+}
+
+.modal-content button.cancel {
+  padding: 10px 20px;
+  background-color: #dc3545; /* Gray color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-content button.cancel:hover {
+  filter: brightness(1.2); /* Lighten the color on hover */
+}
+
+/* Input fields in the modal */
+.modal-content input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+/* Close button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #333;
+}
+
+/* Table body row background color */
+table tbody tr {
+  background-color: #FFF6E9; /* Light blue color */
+}
+/* Input areas background color */
+input {
+  background-color: #FFF6E9; /* Light orange color */
+}
+body{
+  background-color: #ECF8F9;
+}
+.modal-content{
+  background-color: #ECF8F9;
+}
+
+
+
